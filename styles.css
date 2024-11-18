@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('media/kitchen-background.jpg'); /* Updated path */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center center; /* Centers the image */
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  font-size: 2em;
+  color: #2f4f4f;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#problem-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 20px auto;
+}
+
+#feedback-div {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+#timer {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+#export-btn {
+  background-color: #007BFF;
+}
+
+#export-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Story Screen Styles */
+#story-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background for text readability */
+  border-radius: 10px;
+}
+
+#story-screen h1 {
+  color: #f7a600;
+}
+
+#story-screen p {
+  font-size: 1.2em;
+}
+
+#story-screen button {
+  background-color: #f7a600;
+}
+
+#problem-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Feedback Colors */
+#feedback-div {
+  color: red;
+}
+
+#feedback-div.correct {
+  color: lime;
+}
+
+#feedback-div.incorrect {
+  color: red;
+}
+
+#timer {
+  font-weight: bold;
+  color: #555;
+}
+
+
+
+  

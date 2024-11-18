@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baking Fraction Simulation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="story-screen">
+    <h1>Welcome to the Baking Fraction Challenge! </h1>
+    <p>Get ready to solve fraction problems while you help prepare a cake. Every correct answer brings you closer to the perfect cake!</p>
+    <button id="start-btn">Start the Challenge</button>
+  </div>
+
+  <div id="problem-screen" style="display: none;">
+    <div id="problem-container">
+      <h2>Question <span id="question-number">1</span></h2>
+      <p id="problem-div"></p>
+      <input type="text" id="answer-input" placeholder="Enter your answer here (e.g., 3/4)">
+      <div id="feedback-div"></div>
+      <button id="submit-btn">Submit Answer</button>
+      <button id="retry-btn" style="display: none;">Retry</button>
+      <div id="timer">Time Spent: <span id="time-spent">0</span> seconds</div>
+      <button id="export-btn" style="display: none;">Export Results</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
